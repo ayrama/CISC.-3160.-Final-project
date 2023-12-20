@@ -29,7 +29,7 @@ class Interpreter:
             if input_string[i].isspace():
                 i += 1
             # operators and parentheses are being recognized
-            elif input_string[i] in "+-*/=;()":  # Include '(' and ')' here
+            elif input_string[i] in "+-*/=;()":
                 tokens.append(input_string[i])
                 i += 1
             # tokenizing numbers
